@@ -16,6 +16,9 @@
 		840FE9EE27D77B3C00EB250B /* UserListProgramaticallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FE9ED27D77B3C00EB250B /* UserListProgramaticallyTests.swift */; };
 		840FE9F827D77B3C00EB250B /* UserListProgramaticallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FE9F727D77B3C00EB250B /* UserListProgramaticallyUITests.swift */; };
 		840FE9FA27D77B3C00EB250B /* UserListProgramaticallyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FE9F927D77B3C00EB250B /* UserListProgramaticallyUITestsLaunchTests.swift */; };
+		845A3B9E27D8CE6200FB3EBC /* UserResponce .swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A3B9D27D8CE6200FB3EBC /* UserResponce .swift */; };
+		845A3BA027D8CEB700FB3EBC /* UIImageDownload .swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A3B9F27D8CEB700FB3EBC /* UIImageDownload .swift */; };
+		845A3BA227D8D73D00FB3EBC /* UserListCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A3BA127D8D73D00FB3EBC /* UserListCustomClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		840FE9F327D77B3C00EB250B /* UserListProgramaticallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserListProgramaticallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840FE9F727D77B3C00EB250B /* UserListProgramaticallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListProgramaticallyUITests.swift; sourceTree = "<group>"; };
 		840FE9F927D77B3C00EB250B /* UserListProgramaticallyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListProgramaticallyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		845A3B9D27D8CE6200FB3EBC /* UserResponce .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserResponce .swift"; sourceTree = "<group>"; };
+		845A3B9F27D8CEB700FB3EBC /* UIImageDownload .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageDownload .swift"; sourceTree = "<group>"; };
+		845A3BA127D8D73D00FB3EBC /* UserListCustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCustomClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				840FE9D627D77B3A00EB250B /* AppDelegate.swift */,
+				845A3B9D27D8CE6200FB3EBC /* UserResponce .swift */,
+				845A3B9F27D8CEB700FB3EBC /* UIImageDownload .swift */,
 				840FE9D827D77B3A00EB250B /* SceneDelegate.swift */,
+				845A3BA127D8D73D00FB3EBC /* UserListCustomClass.swift */,
 				840FE9DA27D77B3A00EB250B /* ViewController.swift */,
 				840FE9DC27D77B3A00EB250B /* Main.storyboard */,
 				840FE9DF27D77B3C00EB250B /* Assets.xcassets */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845A3BA227D8D73D00FB3EBC /* UserListCustomClass.swift in Sources */,
+				845A3B9E27D8CE6200FB3EBC /* UserResponce .swift in Sources */,
 				840FE9DB27D77B3A00EB250B /* ViewController.swift in Sources */,
 				840FE9D727D77B3A00EB250B /* AppDelegate.swift in Sources */,
 				840FE9D927D77B3A00EB250B /* SceneDelegate.swift in Sources */,
+				845A3BA027D8CEB700FB3EBC /* UIImageDownload .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
