@@ -29,4 +29,4 @@ struct Support: Decodable {
     let text: String
 }
 
-// I love watching series 
+// I love watching good series 
